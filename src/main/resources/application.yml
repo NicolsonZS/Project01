@@ -1,0 +1,12 @@
+spring:
+  jackson:
+    date-format: yyyy-MM-dd
+    timezone: GMT+8
+    serialization:
+      write-dates-as-timestamps: true
+
+logging:
+  file: target/app.log
+  level:
+    ROOT: WARN
+    cn.devmgr: WARN
